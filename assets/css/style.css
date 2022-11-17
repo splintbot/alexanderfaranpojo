@@ -1255,7 +1255,14 @@ section {
   position: relative;
   overflow: hidden;
 }
-
+.team button[type=order] {
+  background: #e03a3c;
+  border: 0;
+  padding: 10px 32px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
 .team .member .social {
   position: absolute;
   left: 0;
